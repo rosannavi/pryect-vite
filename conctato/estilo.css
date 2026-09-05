@@ -1,0 +1,1552 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Patua+One&family=Playwrite+NZ+Basic+Guides&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Patua+One&family=Playwrite+NZ+Basic+Guides&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Smooch+Sans:wght@100..900&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Patua+One&family=Playwrite+NZ+Basic+Guides&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Patua+One&family=Playwrite+NZ+Basic+Guides&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Patua+One&family=Playwrite+NZ+Basic+Guides&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Patua+One&family=Playwrite+NZ+Basic+Guides&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&family=Sora:wght@100..800&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Patua+One&family=Playwrite+NZ+Basic+Guides&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&family=Sora:wght@100..800&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Patua+One&family=Playwrite+NZ+Basic+Guides&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&family=Sora:wght@100..800&family=Supermercado+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Patua+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NZ+Basic+Guides&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&family=Sora:wght@100..800&family=Supermercado+One&display=swap');
+
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --fuente-principal: "Montserrat";
+    --fuente-segundaria: "Sora";
+    --InstrumentSerif: "Instrument Serif";
+    --Roboto: "Roboto";
+    --SmoochSans: "Smooch Sans";
+    --Arimo: "Arimo";
+    --Cormorant-Infant: "Cormorant Infant";
+    --Playfair-Display: "Playfair Display";
+    --color-mezcador-titulos: #cac6c6;
+    --color-mezcador-text: #8ecaf5;
+    ;
+
+
+    /* colores */
+
+    --violet: #b18cff;
+    --pink: #812681;
+    --maron: rgb(94, 76, 10);
+    --negro: rgb(45, 45, 46);
+    --blue-green: #0096c7ff;
+    --turquoise-surf: #00b4d8ff;
+    --sky-aqua: #48cae4ff;
+    --frosted-blue: #90e0efff;
+    --frosted-blue-2: #ade8f4ff;
+    --light-cyan: #caf0f8ff;
+    --light: #def3f8;
+}
+
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+
+/* modal here */
+
+.modal {
+    position: absolute;
+    right: 0;
+    top: 5%;
+    width: 100vw;
+    height: 100vh;
+    transition: all ease-in-out 0.2s;
+    display: none;
+    z-index: 10;
+    color: #Fff;
+}
+
+.modal__content {
+    background-color: #0e0c0c51;
+    width: 500px;
+    height: 380px;
+    max-width: 1200px;
+    min-width: 450px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20vh;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.modal__button-close {
+    cursor: pointer;
+}
+
+.modal__content h3 {
+    color: #8ecaf5;
+    font-size: 32px;
+    margin: 0;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    height: 10%;
+
+}
+
+.part-form {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+label {
+    font-family: var(--InstrumentSerif);
+}
+
+.part-form div label {
+    font-size: 18px;
+}
+
+.part-form div input {
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+.number-form {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.number-form label {
+    font-size: 18px;
+}
+
+.number-form input {
+    padding: 10px 10px;
+    width: 310px;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.text-part-form {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-part-form textarea {
+    width: 90%;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.form-button {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal__button-close {
+    padding: 8px 0;
+    width: 140px;
+    font-family: var(--InstrumentSerif);
+    font-size: 18px;
+    color: var(--color-mezcador-text);
+    border-radius: 12px;
+    border: 1px solid #00000068;
+}
+
+.abrir-modal {
+    width: 80px;
+    height: 70px;
+    background-color: #00000020;
+    border: 0;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.abrir-modal svg {
+    width: 40px;
+}
+
+/* end of modal */
+
+
+.header {
+    width: 100%;
+    height: 120px;
+    background-color: #120808ef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 60;
+    animation: slide-down 0.8s ease forwards;
+}
+
+/* animacion para el header */
+
+@keyframes slide-down {
+    from {
+        opacity: 0;
+        transform: translateY(-300%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 
+de animaciones para el header end  */
+
+
+
+.header-ham {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.carshop {
+    background-color: #000000ac;
+}
+
+.marca {
+    width: 33%;
+    margin-left: 30px;
+}
+
+.text-ham {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.header-ham img {
+    width: 70px;
+    margin-right: 5px;
+}
+
+.text-ham h1 {
+    color: #ffffff;
+    font-family: var(--Playfair-Display);
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+    font-style: italic;
+}
+
+.wrap-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    gap: 10px;
+}
+
+.header-ham .menu {
+    height: 100%;
+}
+
+.elementos-menu {
+    list-style: none;
+    width: 130px;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 400ms;
+}
+
+.elementos-menu:hover {
+    border-bottom: 3px solid #8ecaf5;
+}
+
+.elementos-menu .item {
+    font-family: var(--Playfair-Display);
+    font-size: 18px;
+    font-weight: 200;
+    transition: all ease 400ms;
+    color: #cfc6c6;
+    font-style: normal;
+}
+
+.elementos-menu .item:hover {
+    color: #8ecaf5;
+    cursor: pointer;
+}
+
+.hero-rosse {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.botones-hero-firt {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    backdrop-filter: blur(50%);
+}
+
+.botones-hero-firt>button {
+    padding: 0 10px;
+    height: 50px;
+    width: 200px;
+    font-family: var(--Cormorant-Infant);
+    font-style: italic;
+    font-size: 20px;
+    background-color: #000000af;
+    color: #fff;
+    border: 1px solid red;
+    transition: all ease 400ms;
+}
+
+.botton:hover {
+    transform: scale(1.1);
+    background-color: #8ecaf588;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background-color: #4e4d4d9c;
+    cursor: pointer;
+    color: #ffffff93;
+}
+
+.carshop {
+    z-index: 80;
+    width: 70px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 20%;
+    position: fixed;
+
+}
+
+.header-icon {
+    z-index: 10;
+    width: 38px;
+    height: 38px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 0;
+    overflow: hidden;
+}
+
+
+.header-icon svg {
+    transition: all ease 600ms;
+    width: 100%;
+}
+
+.header-icon svg:hover {
+    cursor: pointer;
+    transform: scale(1.4);
+}
+
+.unico {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.unico:hover ul {
+    display: block;
+}
+
+.unico ul {
+    display: none;
+    position: absolute;
+    top: 120%;
+    left: 0;
+    width: 100%;
+    height: 190px;
+    background-color: #ffffff72;
+    list-style: none;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.unico ul li a {
+    display: block;
+    color: #8ecaf5;
+}
+
+.unico ul li a:hover {
+    width: 100%;
+    background-color: #8ecaf5;
+}
+
+.unico li a {
+    padding: 10px;
+}
+
+.lista-desplegable {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.list-shop {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #00000039;
+    gap: 30px;
+    transition: all 200ms ease;
+}
+
+.list-shop:hover {
+    background-color: #8ecaf5;
+}
+
+.list-shop h3 {
+    font-family: var(--Playfair-Display);
+    font-size: 18px;
+    font-weight: 200;
+    color: #000000;
+}
+
+.list-icon {
+    color: #000000;
+}
+
+
+/* this es the section filosophy ☝️☝️😍😍 */
+
+.seccion__our-philosofy {
+    width: 100%;
+    height: 800px;
+    background-color: #fffefe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.background-philosofy {
+    background-color: #000000;
+    width: 95%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation-name: animatio-philosophy;
+    animation-duration: 600ms;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-timeline: view();
+    animation-range: entry 10% cover 30%;
+}
+
+@keyframes animatio-philosophy {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.our-philosofy {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titles-philosofy {
+    width: 50%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.titles-philosofy div {
+    width: 45px;
+    height: 2px;
+    background-color: #5c5656;
+}
+
+.titles-philosofy h2 {
+    margin: 0;
+    color: #fff;
+    font-family: var(--Cormorant-Infant);
+}
+
+.philosofy-numbers {
+    width: 50%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.philosofy-numbers div {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.philosofy-numbers>div h3 {
+    color: #4a9ceeff;
+    font-size: 31px;
+    font-family: var(--Cormorant-Infant);
+    margin: 0;
+}
+
+.philosofy-numbers>div>p {
+    font-family: var(--Cormorant-Infant);
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.philosofy-p {
+    width: 50%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.philosofy-p p {
+    font-family: var(--Cormorant-Infant);
+    font-style: normal;
+    color: #fff;
+    font-size: 15px;
+    margin: 0;
+}
+
+.our-philosofy-1 {
+    width: 80%;
+    height: 75%;
+    overflow: hidden;
+    border: 1px solid #4a9ceeff;
+}
+
+.our-philosofy-1>img {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.our-philosofy-2 {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    z-index: 10;
+    top: 158%;
+    left: 50%;
+    border: 1px solid #4a9ceeff;
+}
+
+.our-philosofy-2 img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* seccion-conctato here  👇👇👇🌹👍 */
+
+.seccion-conctato {
+    width: 100%;
+    height: 800px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap-conctato {
+    background-color: #000000;
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+    border: 1px solid #4a9ceeff;
+
+}
+
+.animation-firts {
+    animation-name: animation-firts;
+    animation-duration: 600ms;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-timeline: view();
+    animation-range: entry 10% cover 30%;
+}
+
+.animation-second {
+    animation-name: animation-second;
+    animation-duration: 600ms;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-timeline: view();
+    animation-range: entry 10% cover 30%;
+}
+
+@keyframes animation-firts {
+    from {
+        opacity: 0;
+        transform: translateX(-120px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes animation-second {
+    from {
+        opacity: 0;
+        transform: translateX(120px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.wrapper-form {
+    width: 90%;
+    height: 10%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    animation-name: animation-input;
+    animation-duration: 1000ms;
+    animation-delay: 200ms;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-timeline: view();
+    animation-range: entry 10% cover 30%;
+}
+
+@keyframes animation-input {
+    from {
+        opacity: 0;
+        transform: translateX(-90px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.wrap-conctato div label {
+    color: #fff;
+    font-family: var(--SmoochSans);
+}
+
+.wrap-conctato h2 {
+    font-family: var(--Cormorant-Infant);
+    color: #ffffff;
+    font-style: italic;
+    font-size: 41px;
+    margin: 5px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.wrapper-form div input {
+    padding: 10px;
+    width: 90%;
+}
+
+.wrapper-input-text {
+    margin-left: 100px;
+    width: 90%;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+
+    animation-name: animation-input-text;
+    animation-duration: 1000ms;
+    animation-delay: 200ms;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-timeline: view();
+    animation-range: entry 10% cover 30%;
+}
+
+@keyframes animation-input-text {
+    from {
+        opacity: 0;
+        transform: translateX(-90px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.area-text {
+    width: 81%;
+    height: 70px;
+}
+
+.area-text-text {
+    width: 81%;
+    height: 220px;
+    border: 0;
+}
+
+.area-text-text>label>input {
+    width: 100%;
+    height: 110px;
+    border: 0;
+    background-color: #1f1e1e;
+    margin: 20px 0;
+}
+
+.area-text>label>input {
+    width: 100%;
+    height: 40px;
+}
+
+.wrapper-input-text button {
+    padding: 10px;
+    width: 50%;
+    height: 40px;
+    font-size: 18px;
+    border: 1px solid #4a9ceeff;
+    background-color: #4a9ceeff;
+}
+
+.wrapper-input-text button:hover {
+    background-color: rgba(74, 156, 238, 0.512);
+    cursor: pointer;
+}
+
+.extrellas-estadistica {
+    color: #4a9ceeff;
+    width: 20px;
+}
+
+.text-conctatos {
+    width: 75%;
+    height: 55%;
+    padding: 10px;
+    background-color: #1f1e1e;
+    padding: 20px;
+    border-radius: 12px;
+
+    animation-name: animation-text-conctatos;
+    animation-duration: 1000ms;
+    animation-delay: 200ms;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-timeline: view();
+    animation-range: entry 10% cover 30%;
+}
+
+@keyframes animation-text-conctatos {
+    from {
+        opacity: 0;
+        transform: translateX(90px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.text-conctatos>h2 {
+    font-family: var(--Cormorant-Infant);
+    color: #ffffff;
+    font-style: italic;
+    font-size: 41px;
+    margin: 5px;
+}
+
+.text-conctatos>div>p {
+    margin: 0;
+    font-family: var(--InstrumentSerif);
+    font-size: 11px;
+}
+
+.text-locatios {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.text-locatios-icon {
+    display: flex;
+    justify-content: start;
+    width: 30px;
+    height: 60px;
+}
+
+.text-locatios>.text-locatios-timeline {
+    width: 80%;
+    height: 75px;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+
+.text-locatios div h3 {
+    color: #e0d9d9;
+    margin: 4px;
+    font-family: var(--InstrumentSerif);
+    font-style: normal;
+    font-size: 18px;
+}
+
+.text-locatios div p {
+    margin: 0;
+    color: #8b8b8b;
+    font-family: var(--Arimo);
+    font-size: 12px;
+}
+
+.line-conctact {
+    width: 80%;
+    height: 2px;
+    background-color: #565454;
+}
+
+.conect-icons {
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.conect-icons div {
+    display: flex;
+    gap: 20px;
+}
+
+.conect-icons h3 {
+    margin: 0;
+    color: #d6d1d1;
+    font-family: var(--InstrumentSerif);
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.fotos-conctato {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+     animation-name: animation-fotos-conctato;
+    animation-duration: 1000ms;
+    animation-delay: 200ms;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-timeline: view();
+    animation-range: entry 10% cover 30%;
+}
+
+@keyframes animation-fotos-conctato {
+    from {
+        opacity: 0;
+        transform: translateX(90px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+.fotos-conctato img {
+    width: 50%;
+    height: 90%;
+    object-fit: cover;
+}
+
+
+/* seccion galery👇👇👇👇👇 */
+
+.seccion-festivas {
+    width: 100%;
+    height: 900px;
+    min-width: 400px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap-festividades-text {
+    width: 50%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap-festividades-text h2 {
+    font-family: var(--Cormorant-Infant);
+    font-size: 51px;
+    color: #4a9ceeff;
+    margin: 0;
+    font-style: italic;
+}
+
+.wrap-festividades-text>p {
+    font-size: 15px;
+    color: #000000;
+    font-family: var(--Playfair-Display);
+    text-align: center;
+}
+
+.seccion-festivas-1 {
+    width: 90%;
+    height: 500px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bebidas-medianoche {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.wrap-festividades {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.wrap-festividades>img {
+    object-fit: cover;
+    width: 90%;
+    height: 100%;
+}
+
+.festividades-img-text {
+    position: absolute;
+    width: 90%;
+    height: 180px;
+    bottom: 2px;
+    z-index: 10;
+    text-align: center;
+    background-color: #00000096;
+}
+
+.festividades-img-text h3 {
+    color: #fffefe;
+    font-size: 31px;
+    font-family: var(--SmoochSans);
+    margin: 0;
+}
+
+.festividades-img-text p {
+    color: #fff;
+    font-family: var(--InstrumentSerif);
+    font-size: 15px;
+}
+
+.festividades {
+    width: 90%;
+    padding: 10px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #4a9ceeff;
+    transition: all ease 300ms;
+    overflow: hidden;
+}
+
+.festividades:hover {
+    cursor: pointer;
+    background-color: #36343492;
+}
+
+.festividades-letles {
+    display: flex;
+}
+
+.festividades-letles div>.nombre-bebida-coctel-medianoche {
+    font-family: var(--Cormorant-Infant);
+    font-size: 23px;
+    font-style: oblique;
+}
+
+.festividades-letles>div {
+    height: 40px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.precio-bebida-coctel-medianoche-div {
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+
+.festividades h3 {
+    color: #4a9ceeff;
+    font-size: 18px;
+    font-family: var(--Cormorant-Infant);
+    margin: 5px 0;
+}
+
+.festividades p {
+    text-align: start;
+    color: #000000;
+    margin: 7px 0;
+    font-size: 15px;
+}
+
+.precio-bebida-coctel-medianoche {
+    color: #151414;
+}
+
+
+/* celebracciones-exclusivas🌹☝️☝️☝️☝️☝️☝️ */
+
+.celebracciones-exclusivas {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.exclusividad-text {
+    width: 50%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.exclusividad-text h2 {
+    font-family: var(--Cormorant-Infant);
+    font-size: 51px;
+    color: #4a9ceeff;
+    margin: 0;
+    font-style: italic;
+}
+
+.exclusividad-text p {
+    font-size: 15px;
+    color: #ffffff;
+    font-family: var(--Playfair-Display);
+    text-align: center;
+}
+
+.exclusividad-img {
+    width: 95%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.target-exclusivas {
+    width: 27%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.target-exclusivas>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    filter: blur(3px);
+}
+
+.target-exclusivas>img:hover {
+    filter: blur(0px);
+    transition: all ease 400ms;
+    cursor: pointer;
+}
+
+.target-exclusivas-text {
+    position: absolute;
+    width: 365px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 400ms ease;
+}
+
+.hidden {
+    display: none;
+    /* oculto por defecto */
+}
+
+.trigger:hover+.hidden {
+    display: block;
+    /* aparece al pasar el ratón */
+    cursor: pointer;
+    color: #fff;
+    font-family: var(--Cormorant-Infant);
+    font-size: 16px;
+}
+
+.target-exclusivas-text h3 {
+    color: #0595d3;
+    font-family: var(--fuente-segundaria);
+    font-size: 18px;
+    margin: 2px 0;
+    font-style: normal;
+}
+
+.target-exclusivas-text h2 {
+    margin: 8px 0;
+    color: #fff;
+    font-family: var(--Cormorant-Infant);
+    font-size: 31px;
+}
+
+.img-top {
+    margin-bottom: 60px;
+}
+
+
+/* From Uiverse.io by gharsh11032000 */
+.animated-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 16px 36px;
+    border: 4px solid;
+    border-color: transparent;
+    font-size: 16px;
+    background-color: inherit;
+    border-radius: 100px;
+    font-weight: 600;
+    color: var(--color-mezcador-text);
+    box-shadow: 0 0 0 2px var(--color-mezcador-text);
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button svg {
+    position: absolute;
+    width: 24px;
+    fill: greenyellow;
+    z-index: 9;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .arr-1 {
+    right: 16px;
+}
+
+.animated-button .arr-2 {
+    left: -25%;
+}
+
+.animated-button .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-mezcador-text);
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .text {
+    position: relative;
+    z-index: 1;
+    transform: translateX(-12px);
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button:hover {
+    box-shadow: 0 0 0 12px transparent;
+    color: #212121;
+    border-radius: 12px;
+}
+
+.animated-button:hover .arr-1 {
+    right: -25%;
+}
+
+.animated-button:hover .arr-2 {
+    left: 16px;
+}
+
+.animated-button:hover .text {
+    transform: translateX(12px);
+}
+
+.animated-button:hover svg {
+    fill: #212121;
+}
+
+.animated-button:active {
+    scale: 0.95;
+    box-shadow: 0 0 0 4px var(--color-mezcador-text);
+}
+
+.animated-button:hover .circle {
+    width: 220px;
+    height: 220px;
+    opacity: 1;
+}
+
+
+/* seccon horarios de oficinas🤣👤☝️🌹 */
+
+.seccion-horarios {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.small {
+    width: 500px;
+    padding: 20px 0;
+    height: 70%;
+    background: #000000;
+    background: linear-gradient(41deg, #105ca96f 3%, rgba(15, 14, 14, 1) 14%, rgba(0, 0, 0, 1) 77%, #105ca96f 100%, rgba(214, 206, 206, 1) 100%);
+}
+
+.boxes-horarios {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.small p {
+    color: #cdcaca;
+    text-align: center;
+    margin: 32px 0;
+}
+
+
+.icon-horario {
+    color: #105ca96f;
+
+}
+
+.box-horarios-letles {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    width: 90%;
+    height: 60px;
+    padding: 2px 20px;
+}
+
+.box-horarios-letles h2 {
+    font-family: var(--SmoochSans);
+    font-size: 35px;
+    color: #cdcaca;
+}
+
+.box-horarios {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.line-horarios {
+    width: 95%;
+    background-color: #212020;
+    height: 1px;
+    margin: 0 auto;
+}
+
+.box-horarios h2 {
+    color: #cdcaca;
+    width: 45%;
+    font-size: 18px;
+    font-family: var(--Playfair-Display);
+}
+
+.box-horarios div {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    width: 45%;
+}
+
+.box-horarios h2 {
+    margin: 0;
+    color: #cdcaca;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.box-horarios div h3 {
+    color: #cdcaca;
+    margin: 0;
+    text-align: end;
+}
+
+.box-horarios div p {
+    color: #7aa7d66f;
+    margin: 8px 0;
+    text-align: end;
+}
+
+.large {
+    background: #000000;
+    background: linear-gradient(41deg, #4a9ceeff 3%, rgba(15, 14, 14, 1) 14%, rgba(0, 0, 0, 1) 77%, #1082c4 100%, rgba(214, 206, 206, 1) 100%);
+    width: 450px;
+    height: 85%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.box-horarios-large {
+    width: 90%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.box-horarios-large h3 {
+    color: #105ca96f;
+    font-family: var(--Playfair-Display);
+    font-size: 16px;
+    width: 100%;
+    height: 30px;
+    margin: 6px 0;
+}
+
+.box-horarios-large h2 {
+    color: #fff;
+    font-family: var(--SmoochSans);
+    font-size: 21px;
+    width: 100%;
+    height: 20px;
+    margin: 4px 0;
+}
+
+.box-horarios-large p {
+    color: #cfd2d3;
+    font-family: var(--Montserrat);
+    font-size: 14px;
+    width: 100%;
+    height: 60px;
+    margin: 4px 0;
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    height: 500px;
+}
+
+.footer-line {
+    width: 90%;
+    height: 400px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+}
+
+.footer-wrapper img {
+    width: 90px;
+}
+
+.footer-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones-footer {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.botones-footer .button {
+    color: #fff;
+
+}
+
+.footer__redes {
+    width: 90%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer__redes>div {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #535252;
+}
+
+.footer__redes>div>svg {
+    width: 100%;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.footer__redes>div>svg:hover {
+    transform: scale(1.9);
+}
+
+.footer-wrapper h3 {
+    font-size: 41px;
+    color: #e1dede;
+    font-family: sans-serif;
+    margin: 7px;
+}
+
+.footer_service__wrapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 10px;
+}
+
+.footer__service p {
+    text-align: center;
+    color: #787575;
+    cursor: pointer;
+    font-style: var(--SmoochSans);
+}
+
+.line_footer {
+    width: 80%;
+    height: 1px;
+    background-color: #575555;
+    margin: 0 auto;
+}
+
+footer h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    text-align: center;
+    color: #858080;
+}
