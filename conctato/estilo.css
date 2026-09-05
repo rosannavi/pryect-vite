@@ -634,6 +634,7 @@ de animaciones para el header end  */
 }
 
 .animation-firts {
+    border-radius: 12px 0 0 12px;
     animation-name: animation-firts;
     animation-duration: 600ms;
     animation-timing-function: linear;
@@ -643,6 +644,7 @@ de animaciones para el header end  */
 }
 
 .animation-second {
+    border-radius: 0 12px 12px 0;
     animation-name: animation-second;
     animation-duration: 600ms;
     animation-timing-function: linear;
@@ -828,6 +830,7 @@ de animaciones para el header end  */
         transform: translateX(0);
     }
 }
+
 .text-conctatos>h2 {
     font-family: var(--Cormorant-Infant);
     color: #ffffff;
@@ -913,7 +916,7 @@ de animaciones para el header end  */
     justify-content: center;
     margin-top: 20px;
 
-     animation-name: animation-fotos-conctato;
+    animation-name: animation-fotos-conctato;
     animation-duration: 1000ms;
     animation-delay: 200ms;
     animation-timing-function: linear;
